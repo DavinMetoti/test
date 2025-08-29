@@ -13,7 +13,7 @@ class TreeNode {
 class Codec {
     function __construct()
     {
-
+        // Saya tidak pakai inisialisasi khusus, jadi langsung panggil fungsi dan class.
     }
 
     /**
