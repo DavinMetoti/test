@@ -84,7 +84,7 @@ $root->right->right = new TreeNode(5);
 
 $ser = new Codec();
 $data = $ser->serialize($root);
-echo $data . "\n"; //Contoh DFS : "1,2,null,3,4,5" || Format BFS : "1,2,3,null,4,5" saya pakai format BFS
+echo $data . "\n"; //Contoh DFS : "1,2,null,3,4,5" || Format BFS : "1,2,3,null,null,4,5" saya pakai format BFS
 
 $deser = new Codec();
 $ans = $deser->deserialize($data);
